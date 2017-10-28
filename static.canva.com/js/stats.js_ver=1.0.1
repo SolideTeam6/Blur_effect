@@ -1,0 +1,43 @@
+var CanvaStats = {
+	designTotal: 22202697,
+	designTotalDate: 1433220931505,
+	designGrowthPerWeek: 950000,
+	newDesignTotal: 0,
+	newDesignTotalString: '',
+	userTotal: 2962086,
+	userTotalDate: 1433212221178,
+	userGrowthPerWeek: 135000,
+	newUserTotal: 0,
+	newUserTotalString: '',
+	imagesTotal: 28488100,
+	imagesTotalDate: 1433223969019,
+	imagesGrowthPerWeek: 900000,
+	newImagesTotal: 0,
+	newImagesTotalString: '',
+	launchDate: 1377482400000,
+	daysSinceLaunch: ''
+};
+
+(function() {
+	var newDesignTotal = CanvaStats.designTotal;
+	var designGrowthPerMilli = CanvaStats.designGrowthPerWeek / 7 / 24 / 60 / 60 / 1000;
+	newDesignTotal += Math.floor((Date.now() - CanvaStats.designTotalDate) * designGrowthPerMilli);
+	CanvaStats.newDesignTotal = newDesignTotal;
+	CanvaStats.newDesignTotalString = newDesignTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+	var newUserTotal = CanvaStats.userTotal;
+	var userGrowthPerMilli = CanvaStats.userGrowthPerWeek / 7 / 24 / 60 / 60 / 1000;
+	newUserTotal += Math.floor((Date.now() - CanvaStats.userTotalDate) * userGrowthPerMilli);
+	CanvaStats.newUserTotal = newUserTotal;
+	var truncatedNewUserTotal = Math.floor(newUserTotal/100000)/10;
+	CanvaStats.newUserTotalString = truncatedNewUserTotal + 'M';
+
+	var newImagesTotal = CanvaStats.imagesTotal;
+	var imagesGrowthPerMilli = CanvaStats.imagesGrowthPerWeek / 7 / 24 / 60 / 60 / 1000;
+	newImagesTotal += Math.floor((Date.now() - CanvaStats.imagesTotalDate) * imagesGrowthPerMilli);
+	CanvaStats.newImagesTotal = newImagesTotal;
+	var truncatedNewImagesTotal = Math.floor(newImagesTotal/1000000);
+	CanvaStats.newImagesTotalString = truncatedNewImagesTotal + 'M';
+
+	CanvaStats.daysSinceLaunch = Math.floor((Date.now() - CanvaStats.launchDate) / 1000 / 60 / 60 / 24);
+})();
