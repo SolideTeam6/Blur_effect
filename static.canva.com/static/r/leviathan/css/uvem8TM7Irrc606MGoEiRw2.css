@@ -1158,6 +1158,10 @@ header li.new a, footer li.new a {
 }*/
 
 @media screen and (max-width: 640px) {
+	nav {
+		text-align: center;
+	}
+	
     canvas {
         display: none;
     }
