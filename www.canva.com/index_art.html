@@ -607,13 +607,13 @@
         <div class="signupFormContainer">
             <div class="signupFormContainer__inner">
                 <div class="signupFormContainer__quotes quotes" style="width: 100%; margin-left: 11%;">
-                    <p style="font-size: 30px !important;" class="quotes__quote--important">Ya merito terminamos, aguántanos</p>
+                    <p id="ya_merito" style="font-size: 30px !important; display: none;" class="quotes__quote--important">Ya merito terminamos, aguántanos</p>
                 </div>
                 <div class="signupForm js-signupForm signupForm--collapsed ">
-                    <form style="display: none;" method="post" action="/signup" class="form form--inline form--withLogo signupForm__form js-signupForm__form" autocomplete="off" data-auto-submit="" data-user="" data-signup-redirect="" novalidate>
-                        <a class="form__logo js-signupForm__logo" href="/">
+                    <form style="display: none;" method="post" action="" class="form form--inline form--withLogo signupForm__form js-signupForm__form" autocomplete="off" data-auto-submit="" data-user="" data-signup-redirect="" novalidate>
+                        <a class="form__logo js-signupForm__logo" href="" style="display: none;">
                         </a>
-                        <fieldset class="authForm signupForm__emailForm fadeTransitionContent">
+                        <fieldset id="fieldset_" class="authForm signupForm__emailForm fadeTransitionContent">
                             <input name="csrfToken" type="hidden" value="mgvgXH99b2xwb5cDDZfAw3PxXzw_muDC15FZ7IGW_TSSmqNxQwnd2W8Aca1YPrWxRiP3fCelBQJDYdxsw3iTmTPR7bxlqf1tOfk2G_RMWOdgG6YR"> <input id="accessToken" name="accessToken" type="hidden" value="IPV0l8qSeZAjoJQQ69g_Pa662hWeErMxrlcFnjmHXjklgvzT1gqzA03uq7XUDwdvPC78wQ"> <input id="authMode" name="authMode" type="hidden" value="email"> <input id="facebookToken" name="facebookToken" type="hidden"> <input id="googleAccessToken" name="googleAccessToken" type="hidden"> <input id="googleRefreshToken" name="googleRefreshToken" type="hidden"> <input id="analyticsId" name="analyticsId" type="hidden" disabled="disabled" value="">
                             <div class="form__inputContainer form__inputContainer--first "><input id="displayName" class="form__input  js-form__input js-strengthChecker__userInput" name="displayName" type="text" required><label for="displayName" class="form__label">Full Name</label><span class="form__inputMessage"></span></div>
                             <div class="form__inputContainer  "><input id="email" class="form__input  js-form__input js-strengthChecker__userInput" name="email" type="email" required><label for="email" class="form__label">Email</label><span class="form__inputMessage"></span></div>
@@ -623,7 +623,7 @@
                         </fieldset>
                     </form>
                     <div class="signupForm__below">
-                        <div class="form__footButtons fadeTransitionContent"> <a class="form__footButton js-form__footButton" href="/signup">Sign up with a social account</a> </div>
+                        <div class="form__footButtons fadeTransitionContent"> <a class="form__footButton js-form__footButton" href="/signup" style="display: none;">Sign up with a social account</a> </div>
                     </div>
                 </div>
                 <!--<div class="signupFormContainer__quotes quotes">
@@ -632,13 +632,32 @@
             </div>
         </div>
     </div>
-    <footer class="footer js-blurEffect--skip">
+    <footer  style="background: none;" class="footer js-blurEffect--skip">
         <menu class="footer__menu menu">
+            <li class="navigationMenuDropdown">
+                <p id="ya_merito2" style="font-size: 30px !important; color:white; " class="quotes__quote--important">Ya merito terminamos, aguántanos</p>
+
+            </li>
             <li class="navigationMenuDropdown">
                 <img id="logo_" src="images/logo.png" />
             </li>
+           
         </menu>
     </footer>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            console.log($(window).width());
+            if ($(window).width() <= 641) {
+                $('.loginFun').css('display', 'none');
+                $('#fieldset_').remove();
+                $('footer').css('backgorund', 'none');
+            }
+        });
+        //window.onload = function () {
+            
+        //}
+
+    </script>
     <script type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "errorBeacon": "bam.nr-data.net", "licenseKey": "194969ee20", "agent": "", "beacon": "bam.nr-data.net", "applicationTime": 16, "applicationID": "1908047", "transactionName": "YQQANkMDCENVAkRfDlhOMRJDCwhXdw5eQhNZDQ4HQ00VWVMPRUZBHiYnNhg=", "queueTime": 2 }</script>
 </body>
 </html>
