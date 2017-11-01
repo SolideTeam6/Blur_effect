@@ -78,7 +78,7 @@
                 h = new Image;
                 if (!a.css("background-image")) throw Error("element must have a background image");
                 $(h).one("load", k);
-                $(h).attr("src", "www.canva.com/images/under1_.jpg");
+                $(h).attr("src", "www.canva.com/images/under1.jpg");
               //  $(h).css("background","url(../../../../../www.canva.com/images/under2_.jpg) no-repeat center center fixed #3f4652");
             }
         }
