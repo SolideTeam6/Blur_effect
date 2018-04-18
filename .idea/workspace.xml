@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="611" column="22" lean-forward="true" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="610" column="143" lean-forward="false" selection-start-line="610" selection-start-column="143" selection-end-line="610" selection-end-column="143" />
               <folding>
                 <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -35,7 +35,7 @@
       <file leaf-file-name="uvem8TM7Irrc606MGoEiRw2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static.canva.com/static/r/leviathan/css/uvem8TM7Irrc606MGoEiRw2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33941">
+            <state relative-caret-position="10933">
               <caret line="1173" column="5" lean-forward="true" selection-start-line="1173" selection-start-column="5" selection-end-line="1173" selection-end-column="5" />
               <folding />
             </state>
@@ -122,12 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523940387463</updated>
       <workItem from="1523940389808" duration="3209000" />
-      <workItem from="1524064061194" duration="1034000" />
+      <workItem from="1524064061194" duration="1969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4243000" />
+    <option name="totallyTimeSpent" value="5178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1398" height="877" extended-state="6" />
@@ -197,7 +197,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static.canva.com/static/r/leviathan/css/uvem8TM7Irrc606MGoEiRw2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33941">
+        <state relative-caret-position="10933">
           <caret line="1173" column="5" lean-forward="true" selection-start-line="1173" selection-start-column="5" selection-end-line="1173" selection-end-column="5" />
           <folding />
         </state>
@@ -205,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="611" column="22" lean-forward="true" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="610" column="143" lean-forward="false" selection-start-line="610" selection-start-column="143" selection-end-line="610" selection-end-column="143" />
           <folding>
             <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
