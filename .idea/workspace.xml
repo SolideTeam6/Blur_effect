@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e5fbe3-af2b-4425-bb43-a84cac8fbbf5" name="Default" comment="" />
+    <list default="true" id="67e5fbe3-af2b-4425-bb43-a84cac8fbbf5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,10 +24,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="602" column="91" lean-forward="true" selection-start-line="602" selection-start-column="91" selection-end-line="602" selection-end-column="91" />
+            <state relative-caret-position="261">
+              <caret line="602" column="32" lean-forward="true" selection-start-line="602" selection-start-column="32" selection-end-line="602" selection-end-column="32" />
               <folding>
                 <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1527030482000" expanded="true" signature="29161:29606" ph="..." />
+                <marker date="1527030482000" expanded="true" signature="29209:29585" ph="..." />
+                <marker date="1527030482000" expanded="true" signature="29267:29562" ph="..." />
+                <marker date="1527030482000" expanded="true" signature="29333:29463" ph="..." />
+                <marker date="1527030482000" expanded="true" signature="29421:29432" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,6 +118,70 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -121,18 +196,20 @@
       <workItem from="1523940389808" duration="3209000" />
       <workItem from="1524064061194" duration="2382000" />
       <workItem from="1524081608065" duration="64000" />
-      <workItem from="1526961934565" duration="1643000" />
+      <workItem from="1526961934565" duration="2873000" />
+      <workItem from="1526997056994" duration="417000" />
+      <workItem from="1527030113475" duration="371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7298000" />
+    <option name="totallyTimeSpent" value="9316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24594785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -163,10 +240,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17719">
+          <caret line="611" column="27" lean-forward="true" selection-start-line="611" selection-start-column="27" selection-end-line="611" selection-end-column="27" />
           <folding>
             <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1527030482000" expanded="true" signature="29161:29606" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29209:29585" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29267:29562" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29333:29463" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29421:29432" ph="..." />
           </folding>
         </state>
       </provider>
@@ -185,6 +270,40 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1527030482000" expanded="true" signature="29161:29606" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29209:29585" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29267:29562" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29333:29463" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29421:29432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.canva.com/static/r/leviathan/css/uvem8TM7Irrc606MGoEiRw2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34220">
+          <caret line="1180" column="23" lean-forward="false" selection-start-line="1180" selection-start-column="23" selection-end-line="1180" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1527030482000" expanded="true" signature="29161:29606" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29209:29585" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29267:29562" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29333:29463" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29421:29432" ph="..." />
           </folding>
         </state>
       </provider>
@@ -199,21 +318,29 @@
     <entry file="file://$PROJECT_DIR$/www.canva.com/images-blur/under1.jpg" />
     <entry file="file://$PROJECT_DIR$/www.canva.com/images-blur/under1_.jpg" />
     <entry file="file://$PROJECT_DIR$/www.canva.com/images-blur/fondo.jpg" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="602" column="32" lean-forward="true" selection-start-line="602" selection-start-column="32" selection-end-line="602" selection-end-column="32" />
+          <folding>
+            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1527030482000" expanded="true" signature="29161:29606" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29209:29585" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29267:29562" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29333:29463" ph="..." />
+            <marker date="1527030482000" expanded="true" signature="29421:29432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static.canva.com/static/r/leviathan/css/uvem8TM7Irrc606MGoEiRw2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34220">
           <caret line="1180" column="23" lean-forward="false" selection-start-line="1180" selection-start-column="23" selection-end-line="1180" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="602" column="91" lean-forward="true" selection-start-line="602" selection-start-column="91" selection-end-line="602" selection-end-column="91" />
-          <folding>
-            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
